@@ -1,0 +1,8 @@
+/.metadata/
+*/.iml
+#do not track content from below
+target/
+test-output/
+Reports/
+.idea
+.classpath
