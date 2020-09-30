@@ -1,0 +1,28 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+  
+<suite name="Westpac">
+
+<listeners>
+<listener class-name="com.westpac.extentreports.Listener"/>
+</listeners>
+
+ <test thread-count="1" name="WetspacTest1" > 
+    <classes>
+       <class name="com.westpac.testcases.infoIconTest" />              
+    </classes>
+  </test>
+
+  <test thread-count="1" name="WetspacTest2" > 
+    <classes>
+       <class name="com.westpac.testcases.KiwiSaverUserStory2Test" />              
+    </classes>
+  </test>
+    
+   
+  
+  
+</suite>
+
+
+
+
